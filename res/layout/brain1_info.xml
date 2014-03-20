@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wall"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:scrollbars="vertical" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#007FFF"
+	        android:text="Part Name"
+	        android:textColor="#330000" />
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#E6E8FA"
+	        android:text="Frontal Lobe"
+	        android:textSize="12dp" />
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#007FFF"
+	        android:text="Possible Diseases"
+	        android:textColor="#330000" />
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="#E6E8FA"
+	        android:text="The frontal lobes determine personality and contain the area called the motor cortex that controls movement of the muscles of the body (the motor cortex on the right half of the brain controls the left side of the body and vice versa). The frontal lobes are thought to be the area of the brain most involved in conscious thinking. Symptoms of tumours affecting the frontal lobe can include: -Personality change, -Disinhibition – loss of inhibition leading to offensive behaviour which is out of character for that person e.g.swearing,rudeness,inappropriate sexual behaviour, -Irritability, -Aggression, -Apathy – loss of interest in life, -Difficulty planning or organising, -Weakness of one side of the face or body, -Problems walking, -Difficulty speaking."
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textSize="12dp" />
+
+	</LinearLayout>
+
+</FrameLayout>

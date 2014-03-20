@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brain"
+    android:orientation="vertical" >
+
+   <Button
+       android:id="@+id/brain_enter"
+       android:layout_width="match_parent"
+       android:layout_height="34dp"
+       android:background="#00EEEE"
+       android:gravity="center"
+       android:text="Click here to enter!"
+       android:textColor="#000033" >
+</Button> 
+
+</LinearLayout>
