@@ -75,21 +75,5 @@ public class MainActivity extends Activity {
 		super.onPause();
 		//finish();
 	}
-	
-	/**@Override
-	protected void onListItemClick(ListView l, View v, int position, long id) {
-		// TODO Auto-generated method stub
-		super.onListItemClick(l, v, position, id);
-		String choice = classes[position];
-		try {
-			Class selectionClass = Class.forName("com.raxa_gsoc2014.doctorsapp."+ choice);
-			Intent openChoice = new Intent(MainActivity.this,selectionClass);
-			startActivity(openChoice);
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-	}*/
 
 }
