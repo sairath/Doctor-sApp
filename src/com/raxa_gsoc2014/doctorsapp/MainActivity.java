@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
 	
 	//String classes[]={"Brain","NervousSystem","Joints&Bones","InternalOrgans"};
 	
-	Button brain;
+	Button brain, skeleton;
 	
 	/* (non-Javadoc)
 	 * @see android.app.ListActivity#onListItemClick(android.widget.ListView, android.view.View, int, long)
@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
 	//setListAdapter(new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,classes));
 		setContentView(R.layout.activity_main);
 		brain= (Button) findViewById(R.id.choice_brain);
+		skeleton = (Button) findViewById(R.id.button_bones_joints);
 		brain.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
@@ -35,12 +36,31 @@ public class MainActivity extends Activity {
 						try{
 							
 						}finally{
-							Intent openBrain =new Intent("com.raxa_gsoc2014.doctorsapp.BRAIN");
+							Intent openBrain =new Intent("com.raxa_gsoc2014.doctorsapp.SPLITHEAD");
 							startActivity(openBrain);
 						}
 					}
 				};
 				linkBrain.start();
+			}
+		});
+		
+		skeleton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Thread link = new Thread(){
+					public void run(){
+						try{
+							
+						}finally{
+							Intent openBonesJoints =new Intent("com.raxa_gsoc2014.doctorsapp.SKELETONCHOICE");
+							startActivity(openBonesJoints);
+						}
+					}
+				};
+				link.start();
 			}
 		});
 		

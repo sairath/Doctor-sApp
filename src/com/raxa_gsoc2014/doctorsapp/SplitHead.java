@@ -4,11 +4,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+//import android.widget.Button;
+import android.widget.ImageButton;
 
 public class SplitHead extends Activity{
 
-	Button brain1,brain2,brain3,brain4,brain5;
+	ImageButton brain1,brain2,brain3,brain4,brain5;
 	/* (non-Javadoc)
 	 * @see android.app.Activity#onCreate(android.os.Bundle)
 	 */
@@ -16,12 +17,19 @@ public class SplitHead extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.split_head);
-		brain1 = (Button) findViewById(R.id.brain1_enter);
+		setContentView(R.layout.split_head_update);
+	/** brain1 = (Button) findViewById(R.id.brain1_enter);
 		brain2 = (Button) findViewById(R.id.brain2_enter);
 		brain3 = (Button) findViewById(R.id.brain3_enter);
 		brain4 = (Button) findViewById(R.id.brain4_enter);
-		brain5 = (Button) findViewById(R.id.brain5_enter);
+		brain5 = (Button) findViewById(R.id.brain5_enter); */
+		
+		brain1 = (ImageButton) findViewById(R.id.imageButton1);
+		brain2 = (ImageButton) findViewById(R.id.imageButton2);
+		brain3 = (ImageButton) findViewById(R.id.imageButton3);
+		brain4 = (ImageButton) findViewById(R.id.imageButton4);
+		brain5 = (ImageButton) findViewById(R.id.imageButton5);
+		
 		brain1.setOnClickListener(new View.OnClickListener() {
 			
 			@Override

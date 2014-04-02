@@ -92,6 +92,135 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".SkeletonChoice"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.SKELETONCHOICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".SkeletonFront"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.SKELETONFRONT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".SkeletonBack"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.SKELETONBACK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ShoulderList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.SHOULDERLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ElbowList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.ELBOWLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".RibCageList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.RIBCAGELIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+		<activity
+            android:name=".FemurList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.FEMURLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KneeList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.KNEELIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".FibulaList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.FIBULALIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".AnkleList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.ANKLELIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".BackBoneList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.BACKBONELIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ScapulaList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.SCAPULALIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".HipList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.raxa_gsoc2014.doctorsapp.HIPLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

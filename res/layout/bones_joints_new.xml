@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/skeleton_new">
+
+    <Button
+        android:id="@+id/button_femur"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="16dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="230dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_femur2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="16dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="230dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_leg2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="16dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="330dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_leg"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="16dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="330dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button_knee2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="300dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_knee"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="300dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_elbow"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="221dp"
+        android:layout_marginTop="95dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_elbow2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="95dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_shoulder1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="86dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_shoulder2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="86dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button_ribcage"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_ankle2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="171dp"
+        android:layout_marginTop="400dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_ankle"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="400dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Click on particular parts to know more"
+        android:textAlignment="center" >
+
+</TextView>    
+
+</FrameLayout>

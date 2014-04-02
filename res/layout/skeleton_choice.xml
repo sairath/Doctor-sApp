@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" 
+    android:background="@drawable/wall">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="145dp"
+            android:layout_height="162dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="Front Skeleton"
+            android:src="@drawable/skeleton_new" >
+
+</ImageView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="38dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="For more info on Shoulder,Elbow,  Chest,Femur(Thigh bone),Knee,Ankle" >
+
+</TextView>
+
+            <Button
+                android:id="@+id/button_skeleton_choice_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="ENTER"
+                android:textAlignment="center" >
+
+</Button>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="154dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/skeleton_back" 
+            android:contentDescription="Back skeleton">
+
+</ImageView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="35dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="For more info on Backbone,Hip,  Scapula" >
+
+</TextView>
+
+            <Button
+                android:id="@+id/button_skeleton_choice_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="ENTER"
+                android:textAlignment="center" >
+
+</Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

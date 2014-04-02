@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/skeleton_back">
+
+    <Button
+        android:id="@+id/button_scapula"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="44dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="125dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_scapula2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="44dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="125dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_hip2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="32dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="315dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/Button_hip"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="32dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="315dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button_backbone"
+        android:layout_width="25dp"
+        android:layout_height="296dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Click on particular parts to know more" >
+</TextView>
+    
+
+</FrameLayout>

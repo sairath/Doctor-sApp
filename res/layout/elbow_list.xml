@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/wall">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="List of possible Elbow diseases: Click to know more"
+        android:textAlignment="center" >
+
+</TextView>"
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Tennis elbow"
+        android:textAlignment="center" >
+</Button>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:text="Bursitis"
+         android:textAlignment="center" >
+</Button>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:text="Arthritis"
+          android:textAlignment="center" >
+</Button>
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:text="Golfers elbow"
+           android:textAlignment="center" >
+</Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:text="Fracture"
+            android:textAlignment="center" >
+
+</Button>"
+    
+
+</LinearLayout>
