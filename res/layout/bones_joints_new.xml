@@ -43,36 +43,36 @@
     <Button
         android:id="@+id/button_knee2"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="18dp"
+        android:layout_width="22dp"
         android:layout_height="26dp"
-        android:layout_marginLeft="131dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="305dp"
         android:background="@android:color/transparent" />
 
     <Button
         android:id="@+id/Button_knee"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="18dp"
+        android:layout_width="22dp"
         android:layout_height="26dp"
-        android:layout_marginLeft="171dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="305dp"
         android:background="@android:color/transparent" />
 
     <Button
         android:id="@+id/Button_elbow"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="18dp"
-        android:layout_height="26dp"
-        android:layout_marginLeft="221dp"
+        android:layout_width="24dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="95dp"
         android:background="@android:color/transparent" />
 
     <Button
         android:id="@+id/Button_elbow2"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="18dp"
+        android:layout_width="24dp"
         android:layout_height="26dp"
-        android:layout_marginLeft="81dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="95dp"
         android:background="@android:color/transparent" />
 
@@ -106,19 +106,19 @@
     <Button
         android:id="@+id/Button_ankle2"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="18dp"
+        android:layout_width="28dp"
         android:layout_height="26dp"
-        android:layout_marginLeft="171dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="405dp"
         android:background="@android:color/transparent" />
 
     <Button
         android:id="@+id/Button_ankle"
         style="?android:attr/buttonStyleSmall"
-        android:layout_width="18dp"
+        android:layout_width="24dp"
         android:layout_height="26dp"
-        android:layout_marginLeft="131dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="405dp"
         android:background="@android:color/transparent" />
 
     <TextView
